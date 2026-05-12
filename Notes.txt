@@ -1,0 +1,8 @@
+0216- dia
+
+=$C5:C23<NOW()
+
+=$M2:M2000='Formula Sheet'!$M$3
+=FILTER(Table1[[Assembly/Part]:[Requestor]],Table1[Vendor Name]='Formula Sheet'!C2)
+
+S:\Daytona Share\` FMRF RTB\FMRF_PurchasesBOM.xlsx
